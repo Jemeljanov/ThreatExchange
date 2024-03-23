@@ -4,6 +4,7 @@ from pathlib import Path
 from os import path
 from setuptools import find_packages, setup
 
+
 here = Path(__file__).parent
 
 description = (here / "DESCRIPTION.rst").read_text(encoding="utf-8").strip()
