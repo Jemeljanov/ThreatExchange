@@ -40,8 +40,6 @@ jobs:
           python -m mypy threatexchange
   test:
     runs-on: ubuntu-latest
-    env:
-      LD_LIBRARY_PATH: /usr/lib
     strategy:
       matrix:
         python-version: ['3.8', '3.9', '3.11']
